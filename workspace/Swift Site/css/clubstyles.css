@@ -1,0 +1,154 @@
+
+html {
+  font: sans-
+}
+#menuTop {
+  width: 100%;
+  height: 225px;
+  background-color: blue;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  
+}
+
+#banner {
+  width: 100%;
+  height: 75px;
+  background-color: black;
+}
+
+
+
+#menuTop img {
+  position: absolute;
+  top: 145px;
+  left: 70990px;
+}
+
+
+#columnleft {
+  width: 300px;
+  height: 438px;
+  background-color: white;
+  float: left;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+
+#columnright {
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  float: none;
+  margin-right: 200px;
+  margin-top: 120px;
+  margin-left: 400px;
+}
+
+
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  margin-top: 150px;
+}
+
+/* Affects the searchBar and SearchBtn ID's in Searchbar.html
+/* moz-border.... is used to make sure this effect takes place in mozilla. 
+/* -webkit... is used for Chromes rendering engine 					*/
+
+
+body {
+	font-family:arial;
+	margin:0px;
+padding:0px;
+width:100%;
+}
+
+/* This is for the Club Name */
+h3 {
+	margin: 20px 0px 0px 0px;
+	position:relative; 
+	max-width:250px;
+}
+
+/* This is for the Club Description */
+p{
+	margin: 0px;
+	padding: 0px;
+	position:relative;
+	max-width:250px;
+
+}
+
+p3{
+	position: relative;
+		font-size: 24px;
+
+}
+/* This is for the results text	*/
+p1{
+	position:relative;
+}
+/* This is for the Fredonia Club Directory */
+
+p2{
+	
+	
+	position:relative; 
+	bottom:-260px;
+	left: 440px;
+	font-size: 24px
+	
+}
+
+p5 {
+	position:relative; 
+	margin: 20px 0px 0px 0px;
+	bottom:-280px;
+	left: 650px;
+	max-width:250px;
+}
+#searchBar {
+	border: 1px solid #000000;
+	border-right:none;
+	font-size: 16px;
+	padding:10px;
+	outline:none;
+	width:250px;
+	
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	
+	
+	
+}
+
+#searchBtn{
+	border: 1px solid #000000;
+	font-size: 16px;
+	padding:10px;
+	background:#D3D3D3;
+	font-weight: bold;
+	cursor: pointer;
+	outline:none;
+	
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+
+
+
+}
+#searchBtn:hover{
+	background: #f63049;
+}

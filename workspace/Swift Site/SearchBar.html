@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+	<head>
+	<title>Search Bar Test</title>
+	<!-- This will refrence our style sheet -->
+	<link rel="stylesheet" href="css/style.css" />
+	<script type = "text/javascript">
+	<!-- Our JS function for the searchbar -->
+		function active(){
+		<!-- This makes a new variable called searchBar, gets our searchBar in our form -->
+		<!-- Then when we click the bar it turns the text into a placeholder/hint -->	
+			var searchBar = document.getElementById('searchBar');
+			
+			if(searchBar.value == "Search...") {
+				searchBar.value = ''
+				searchBar.placeholder = 'Search...'
+			}
+		}
+		
+		function inactive(){
+		<!-- This functions removes the placeholder, if user didnt enter anything, and turns it back into text -->	
+			var searchBar = document.getElementById('searchBar');
+			
+			if(searchBar.value == '') {
+				searchBar.value = 'Search...'
+				searchBar.placeholder = ''
+			}
+		}
+	</script>
+	</head>
+	<body>
+		<form action = "SearchBar.html" method="GET">
+		<!-- onmousedown is what happens when you press down on the mouse, in this case it will call the active() function -->
+		<!-- onBlue is what happens after you deselect the object, will call our inactive function -->
+			<input type = "text" id ="searchBar" placeholder="" value="Search..." maxlength ="25" autocomplete="off" onmousedown="active();" onBlur="inactive()" /><input type = "submit" id="searchBtn" value="GO" />
+			</form>
+	</body>
+
+</html>
